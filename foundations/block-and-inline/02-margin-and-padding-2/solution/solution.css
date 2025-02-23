@@ -33,6 +33,11 @@ In your solution you probably put it right inside the existing selectors,
 which _is_ the best practice.
 
 We separated it out here to make it extra clear what has changed. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .card {
   padding: 8px;

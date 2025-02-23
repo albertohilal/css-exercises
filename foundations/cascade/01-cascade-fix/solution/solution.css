@@ -38,6 +38,10 @@ div.text {
   
   Another solution would be keeping it in its original place and just chaining selectors, giving this rule a higher specificity:
 
+  Luego lo colocamos después del selector .para, aprovechando el orden de las reglas ya que ambos selectores tienen la misma especificidad.
+
+Otra solución sería mantenerlo en su lugar original y simplemente encadenar selectores, dándole a esta regla una mayor especificidad:
+
   p.small-para {
     font-size: 14px;
     font-weight: 800;
