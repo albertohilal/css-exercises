@@ -1,44 +1,46 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
-  background: #232323;
+  background: #FF0000;
   font-family: sans-serif;
 }
 
 .card {
-  width: 858px;
-  height: 442px;
-  background: #EEEEEE;
-  margin: 226px 500px 226px 500px;
-  padding: 25px;
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+  padding: 18px;
 }
 
 .title {
-  background: #e3f4ff;
-  margin: 40px 55px 40px 55px;
+  background: #00FF00;
+  margin-bottom: 8px;
+  font-size: 16px;
   padding: 8px;
-  text-align: left;
-  font-size: 1.8em;
-  font-weight: 600;
 }
 
 .content {
-  background: #e3f4ff;
-  margin: 40px 55px 40px 55px;
-  padding: 16px 8px 10px 8px;
-  font-size: 2em;
+  background: #00FF00;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
-  background: #e3f4ff;
-  padding: 8px;
+  background: #00FF00;
   text-align: center;
-  font-size: 1.8em;
-  
+  padding: 8px;
 }
 
 button {
-  background: #ffffff;
-  border: none;
+  background: white;
+  border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
   padding: 8px 24px;
-  font-size: 0.9em;
-  
 }
